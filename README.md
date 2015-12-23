@@ -12,7 +12,7 @@ http://localhost/gustavo/1/Numbers.php
 Foram escritos testes unitários para este arquivo. Com o PHPUnit instalado no servidor local, digitar o seguinte comando dentro da pasta da aplicação (ex. /var/www/html/gustavo/1/ ):
 http://localhost/gustavo/1/Numbers.php
 
-2. Refatore o código abaixo, fazendo as alterações que julgar necessário.
+2 Refatore o código abaixo, fazendo as alterações que julgar necessário.
 
 Programa desenvolvido na pasta 2.
 Refatorado o código para evitar acesso direto a variável superglobal, criando uma classe para tratamento da Session e da Cookie.
@@ -20,7 +20,7 @@ Pode-se testar acessando o seguinte arquivo:
 http://localhost/gustavo/2/LocationGoogle.php
 Para testar a funcionalidade deve setar um valor para sessão ou cookie e depois excluir o valor utilizando a função nativa unset do php, conforme comentários no código.
 
-3. Refatore o código abaixo, fazendo as alterações que julgar necessário.
+3 Refatore o código abaixo, fazendo as alterações que julgar necessário.
 
 Programa desenvolvido na pasta 3.
 Desenvolvimento foi baseado no princípio da responsabilidade única (S de SOLID).
@@ -36,7 +36,7 @@ http://localhost/gustavo/3/ShowNames.php
 Para gerar a tabela na base de dados utilizar o seguinte script:
 CREATE TABLE `test`.`user` ( `id` SERIAL NOT NULL , `name` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 
-4. Desenvolva uma API Rest para um sistema gerenciador de tarefas (inclusão/alteração/exclusão). As tarefas consistem em título e descrição, ordenadas por prioridade.
+4 Desenvolva uma API Rest para um sistema gerenciador de tarefas (inclusão/alteração/exclusão). As tarefas consistem em título e descrição, ordenadas por prioridade.
 Esta aplicação pode ser acessada através dos links abaixo:
 http://localhost/gustavo/4/frontend/index.php?class=DatagridBootstrapView
 
