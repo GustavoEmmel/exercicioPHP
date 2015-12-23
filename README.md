@@ -10,7 +10,7 @@ Para executar o arquivo em tela do browser, acessar o seguinte caminho:
 http://localhost/gustavo/1/Numbers.php
 
 Foram escritos testes unitários para este arquivo. Com o PHPUnit instalado no servidor local, digitar o seguinte comando dentro da pasta da aplicação (ex. /var/www/html/gustavo/1/ ):
-http://localhost/gustavo/1/Numbers.php
+phpunit tests/NumbersTest
 
 2 Refatore o código abaixo, fazendo as alterações que julgar necessário.
 
