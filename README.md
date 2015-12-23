@@ -37,6 +37,7 @@ Para gerar a tabela na base de dados utilizar o seguinte script:
 CREATE TABLE `test`.`user` ( `id` SERIAL NOT NULL , `name` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 
 4 Desenvolva uma API Rest para um sistema gerenciador de tarefas (inclusão/alteração/exclusão). As tarefas consistem em título e descrição, ordenadas por prioridade.
+
 Esta aplicação pode ser acessada através dos links abaixo:
 http://localhost/gustavo/4/frontend/index.php?class=DatagridBootstrapView
 
