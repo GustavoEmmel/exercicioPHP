@@ -35,21 +35,3 @@ http://localhost/gustavo/3/ShowNames.php
 
 Para gerar a tabela na base de dados utilizar o seguinte script:
 CREATE TABLE `test`.`user` ( `id` SERIAL NOT NULL , `name` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
-
-4 Desenvolva uma API Rest para um sistema gerenciador de tarefas (inclusão/alteração/exclusão). As tarefas consistem em título e descrição, ordenadas por prioridade.
-
-Esta aplicação pode ser acessada através dos links abaixo:
-http://localhost/gustavo/4/frontend/index.php?class=DatagridBootstrapView
-
-http://localhost/gustavo/4/frontend/index.php?class=FormBootstrapView
-
-O primeiro link dará acesso a uma datagrid que mostrará as atividades cadastradas, já o segundo link contém um formulário para adicionar nova atividade.
-Ambas telas foram desenvolvidas em PHP, utilizando o Adianti Framework (http://www.adianti.com.br/), utilizam a biblioteca bootstrap e são responsivas para utilização tanto no browser quanto no dispositivo móvel.
-Toda a Framework com suas telas está na pasta /gustavo/4/frontend/
-
-Os arquivos webservices estão na pasta /Gustavo/4/servisse/
-O código segue a mesma estrutura do exercício anterior. Contendo nesta pasta os arquivos responsáveis pela conexão com o banco e geração de scripts de consulta, bem como dois arquivos para ler os dados do banco e enviar para datagrid e o cliente soup que receberá os dados do formulário front end e gravará na base de dados.
-
-Para gerar a tabela na base de dados utilizar o seguinte script:
-CREATE TABLE `test`.`ticket` ( `id` SERIAL NOT NULL , `titulo` TEXT NOT NULL , `descricao` TEXT NOT NULL , `prioridade` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
-
